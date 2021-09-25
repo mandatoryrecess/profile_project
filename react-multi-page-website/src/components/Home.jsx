@@ -1,4 +1,5 @@
 import React from "react";
+ 
 
 function Home() {
   return (
@@ -7,8 +8,8 @@ function Home() {
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
             <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
+      
+              src='images/main-image/1x/Artboard 1.png'
               alt=""
             />
           </div>
