@@ -1,20 +1,20 @@
 import React from "react";
+
  
 
 function Home() {
   return (
-    <div className="home">
+    <div >
       <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-      
+        <div>
+          <div >
+            <img class="image-holder"
               src='images/main-image/1x/Artboard 1.png'
               alt=""
             />
           </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Home</h1>
+          <div >
+            <h1>Home</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
