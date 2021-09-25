@@ -1,15 +1,20 @@
 @font-face {
-  font-family: 'gv-time-font';
+  font-family: 'gv-time';
   src: local('gv-time-font'), url(./fonts/gv-time-font/GvTimeRegular-BW768.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'bright-font';
+  font-family: 'bright';
   src: url(./fonts/bright-font/BrightDemo-axVxE.otf);
+}
+
+@font-face {
+  font-family: 'bratsy';
+  src: url(./fonts/bratsy-script-font/BratsyScriptDemoReguler-9YYB0.ttf);
 }
 
 body {
   margin: 0;
-  font-family: 'bright-font';
+  font-family: 'bratsy';
 
 }
 code {
