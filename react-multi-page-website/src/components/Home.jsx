@@ -8,8 +8,8 @@ function Home() {
       <div class="container">
         <div>
           <div >
-            <img class="image-holder"
-              src='images/main-image/1x/Artboard 1.png'
+            <img 
+              src='images/ice-cream/2x/Artboard 1@2x.png'
               alt=""
             />
           </div>
