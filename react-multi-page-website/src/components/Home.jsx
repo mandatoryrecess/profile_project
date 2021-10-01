@@ -1,11 +1,11 @@
 import React from "react";
-
- 
+import "./Home.css";
+import  Navigation  from "./Navigation";
 
 function Home() {
   return (
     <div >
-      <div class="container">
+      <div class="container home-body">
         <div>
    
           <div >
