@@ -16,7 +16,9 @@ body {
   margin: 0;
   font-family: 'bratsy';
   background-color: #c3e5e5;
-  background-image: url(./svg/icecream.svg);
+  background-repeat: repeat;
+   
+  background-image: url(./svg/tile.svg);
 
 }
 code {
