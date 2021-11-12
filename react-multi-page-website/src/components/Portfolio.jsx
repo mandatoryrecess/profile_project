@@ -1,15 +1,10 @@
 import React from "react";
+import "./About.css";
 
 function Portfolio() {
   return (
     <div class="container">
     <div>
-      <div >
-      <img 
-      src='images/ice-cream/1x/Artboard 1.png'
-      alt=""
-    />
-      </div>
       <div >
         <h1>Portfolio</h1>
         <p>
