@@ -1,12 +1,13 @@
 import React from "react";
 import "./Home.css";
 
+
 function Home() {
   return (
     <div >
-      <div class="">
+      <div class="heyhi">
         <div>
-   
+          <img src="../"/>
           <div >
             <h1>Home</h1>
             <p>

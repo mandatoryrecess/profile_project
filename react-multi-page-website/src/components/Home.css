@@ -3,3 +3,7 @@ body {
   background-repeat: repeat;
   background-image: url(../svg/tile2.svg);
 }
+
+.heyhi {
+  background-image: url(../svg/heyhii.png)
+}
