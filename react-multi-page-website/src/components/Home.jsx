@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Heyhi from '../images/heyhi.png'
 
 
 function Home() {
@@ -7,7 +8,7 @@ function Home() {
     <div >
       <div class="heyhi">
         <div>
-          <img src="../"/>
+          <img src={Heyhi} height={200} />
           <div >
             <h1>Home</h1>
             <p>
