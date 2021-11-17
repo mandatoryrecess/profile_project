@@ -8,9 +8,10 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-  border: 1px solid #555;
+  width: 10%;
+  border-radius: 35px;
+  background-color: #b7b43a;
+  border: 10px solid #647201;
 }
 
 li a {

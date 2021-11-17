@@ -6,5 +6,6 @@ body {
 
 .heyhi {
   background-repeat: no-repeat;
+  padding-left: 30em;
   /* background-image: url(../svg/heyhii.png) */
 }

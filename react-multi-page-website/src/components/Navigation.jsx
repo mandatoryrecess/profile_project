@@ -7,9 +7,7 @@ function Navigation(props) {
     <div class="navbarcontainer">
       <nav>
         <div class="container">
-          <Link  to="/">
-            Rossanne Clamp
-          </Link>
+    
 
           <div>
             <ul class="navbar-nav ml-auto">
@@ -19,8 +17,8 @@ function Navigation(props) {
                 }`}
               >
                 <Link class="nav-link" to="/">
-                  Home
-                  <span class="sr-only">(current)</span>
+                  HI
+                  <span class="sr-only">*</span>
                 </Link>
               </li>
               <li
@@ -29,7 +27,7 @@ function Navigation(props) {
                 }`}
               >
                 <Link class="nav-link" to="/about">
-                  About
+                  ABOUT
                 </Link>
               </li>
               <li
@@ -38,7 +36,7 @@ function Navigation(props) {
                 }`}
               >
                 <Link class="nav-link" to="/contact">
-                  Contact
+                  CONTACT
                 </Link>
               </li>
               <li
@@ -47,7 +45,7 @@ function Navigation(props) {
               }`}
             >
               <Link class="nav-link" to="/portfolio">
-                Portfolio
+                PORTFOLIO
               </Link>
             </li>
             </ul>
