@@ -9,7 +9,6 @@ function Home() {
       <div class="heyhi">
         <div>
           <img src={Heyhi} height={400} />
-  
         </div>
       </div>
     </div>

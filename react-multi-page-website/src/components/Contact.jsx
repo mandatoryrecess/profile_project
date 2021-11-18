@@ -1,10 +1,11 @@
 import React from "react";
+import "./Contact.css";
 
 function Contact() {
   return (
-    <div class="container">
+    <div class="contact-container">
     <div>
-      <div >
+      <div class="box d" >
         <h1>Contact</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
