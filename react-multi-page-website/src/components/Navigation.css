@@ -1,6 +1,6 @@
 .navbarcontainer {
- align-items: center;
- font-size: 50px;
+ font-size: 2.5vw;
+ padding: 100px 0px 30px 100px;
  
 }
 
@@ -8,8 +8,8 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 10%;
-  border-radius: 35px;
+  width: 20%;
+  border-radius: 15%;
   background-color: #a6b73a;
   border: 80px solid #647201;
 }
@@ -17,7 +17,7 @@ ul {
 li a {
   display: block;
   color: #e5e2a8;
-  padding: 8px 16px;
+  padding: 8px 8px 8px 8px;
   text-decoration: none;
 }
 
