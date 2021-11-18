@@ -1,7 +1,7 @@
 .navbarcontainer {
  align-items: center;
- font-size: 30px;
-
+ font-size: 50px;
+ 
 }
 
 ul {
@@ -10,20 +10,20 @@ ul {
   padding: 0;
   width: 10%;
   border-radius: 35px;
-  background-color: #b7b43a;
-  border: 10px solid #647201;
+  background-color: #a6b73a;
+  border: 80px solid #647201;
 }
 
 li a {
   display: block;
-  color: #000;
+  color: #e5e2a8;
   padding: 8px 16px;
   text-decoration: none;
 }
 
 li {
-  text-align: center;
-  border-bottom: 1px solid #555;
+  text-align: left;
+  border-bottom: 10px solid rgb(68, 22, 22);
 }
 
 li:last-child {
@@ -36,6 +36,6 @@ li a.active {
 }
 
 li a:hover:not(.active) {
-  background-color: #555;
+  background-color: #e5e2a8;
   color: white;
 }
