@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div class="contact-container">
     <div>
-      <div class="box d" >
+      <div class="wrapper" >
         <h1>Contact</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
