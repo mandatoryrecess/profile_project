@@ -1,11 +1,12 @@
 import React from "react";
-import "./About.css";
+import "./Portfolio.css";
+import "./Info.css";
 
 function Portfolio() {
   return (
     <div class="container">
     <div>
-      <div >
+      <div class="box c">
         <h1>Portfolio</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting

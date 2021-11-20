@@ -1,11 +1,12 @@
 import React from "react";
 import "./About.css";
+import "./Info.css";
 
 function About() {
   return (
     <div class="container">
     <div>
-      <div >
+      <div class="box b">
         <h1>About</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
