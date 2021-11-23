@@ -1,14 +1,13 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
 import "./Navigation.css";
+import "./Info.css";
 
 function Navigation(props) {
   return (
-    <div class="navbarcontainer">
+    <div class="navbarcontainer box a">
       <nav>
         <div class="container">
-    
-
           <div>
             <ul class="navbar-nav ml-auto">
               <li

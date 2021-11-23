@@ -5,8 +5,12 @@ body {
 .wrapper {
     display: grid;
     grid-gap: 100px;
-    grid-template-columns: [col] 100px [col] 100px [col] 100px [col] 100px  ;
-    grid-template-rows: [row] auto [row] auto [row] ;
+    grid-template-areas: 
+    "a a c"
+    "a a c"
+    "b c c";
+    grid-template-rows: 50px 1fr 30px;
+    grid-template-columns: 150px 1fr;
     
   }
 
@@ -15,25 +19,38 @@ body {
     border-radius: 5px;
     padding: 20px;
     font-size: 150%;
-    background-color: #e5e2a8;
+    
     border-radius: 15%;
     color: #647201;
 
   }
 
   .a {
-    grid-column: col / span 2;
-    grid-row: row ;
+    width: 500px;
+    background-color: #e5e2a8;
     border: 5px solid rgb(230, 31, 31);;
   }
   .b {
     grid-column: col 3 / span 2 ;
     grid-row: row ;
+    width: 500px;
+    background-color: #e5e2a8;
     border: 5px solid black;;
   }
   .c {
     grid-column: col ;
     grid-row: row 2 ;
+    width: 500px;
+    background-color: #e5e2a8;
     border: 5px solid black;
   }
+
+  .d {
+    grid-column: col ;
+    grid-row: row 2 ;
+    width: 500px;
+    background-color: #e5e2a8;
+    border: 5px solid rgb(52, 219, 18);
+  }
+ 
  
