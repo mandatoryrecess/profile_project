@@ -8,14 +8,14 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 20%;
+  /* width: 30%; */
   border-radius: 15%;
   background-color: #a6b73a;
-  border: 80px solid #647201;
+  border: 20px solid #647201;
 }
 
 li a {
-  display: block;
+  display: grid;
   color: #e5e2a8;
   padding: 8px 8px 8px 8px;
   text-decoration: none;
