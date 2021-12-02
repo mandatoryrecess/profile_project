@@ -5,8 +5,9 @@ import "./Info.css";
 function Contact() {
   return (
     <div>
-    <div class="box a">
+    <div class="box b">
       <div >
+      <h1>Contact</h1>
         <p>
         rossanneclamp@gmail.coom
         </p>

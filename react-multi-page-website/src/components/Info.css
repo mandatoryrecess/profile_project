@@ -1,5 +1,5 @@
 body {
-  margin: 40px;
+  margin: 10%;
 }
 
 .wrapper {
@@ -15,8 +15,7 @@ body {
   }
 
   .box {
-    border-radius: 5px;
-    border-radius: 15%;
+    border-radius: 20%;  
   }
 
   .a {
@@ -27,9 +26,12 @@ body {
   .b {
     grid-column: col 3 / span 2 ;
     grid-row: row ;
-    width: 500px;
-    background-color: #e5e2a8;
-    border: 5px solid black;
+    /* width: 70%; */
+    padding: 5%;
+    margin-top: 8%;
+    color: wheat;
+    background-color: #bf4d06;
+    border: 20px solid #b73919;
     
   }
   .c {
@@ -43,7 +45,6 @@ body {
   .d {
     grid-column: col ;
     grid-row: row 2 ;
-    align-self: center;
   }
  
  

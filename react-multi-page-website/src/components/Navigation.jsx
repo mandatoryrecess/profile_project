@@ -16,7 +16,7 @@ function Navigation(props) {
                 }`}
               >
                 <Link class="nav-link" to="/">
-                  HI
+                  OH HEY
               
                 </Link>
               </li>

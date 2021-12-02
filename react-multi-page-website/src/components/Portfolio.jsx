@@ -6,7 +6,7 @@ function Portfolio() {
   return (
     <div class="container">
     <div>
-      <div class="box c">
+      <div class="box b">
         <h1>Portfolio</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
