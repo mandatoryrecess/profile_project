@@ -12,11 +12,12 @@
   src: url(./fonts/bratsy-script-font/BratsyScriptDemoReguler-9YYB0.ttf);
 }
 
-body {
-  margin: 0;
-  font-family: 'bright';
+ body {
+  margin: 10%;
+  font-family: 'gv-time';
 
-}
+} 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

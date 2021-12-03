@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+body {
+  background-color: #be4d06;
+  background-repeat: repeat;
+  background-image: url(../svg/tile2.svg);
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

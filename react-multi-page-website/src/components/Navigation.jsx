@@ -16,7 +16,7 @@ function Navigation(props) {
                 }`}
               >
                 <Link class="nav-link" to="/">
-                  OH HEY
+                 Hey
               
                 </Link>
               </li>
@@ -26,7 +26,7 @@ function Navigation(props) {
                 }`}
               >
                 <Link class="nav-link" to="/about">
-                  ABOUT
+                  About
                 </Link>
               </li>
               <li
@@ -35,7 +35,7 @@ function Navigation(props) {
                 }`}
               >
                 <Link class="nav-link" to="/contact">
-                  CONTACT
+                  Contact
                 </Link>
               </li>
               <li
@@ -44,7 +44,7 @@ function Navigation(props) {
               }`}
             >
               <Link class="nav-link" to="/portfolio">
-                PORTFOLIO
+                Portfolio
               </Link>
             </li>
             </ul>

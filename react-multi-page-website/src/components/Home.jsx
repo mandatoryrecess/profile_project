@@ -7,11 +7,7 @@ import Heyhi from '../images/heyhi.png'
 function Home() {
   return (
     <div >
-      <div class="heyhi box d">
-        <div>
-          <img src={Heyhi} height={400} />
-        </div>
-      </div>
+          <img src={Heyhi} height={500} />    
     </div>
   );
 }
