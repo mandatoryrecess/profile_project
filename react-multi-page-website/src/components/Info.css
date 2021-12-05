@@ -2,13 +2,9 @@
 
 .wrapper {
     display: grid;
-    grid-gap: 100px;
-    grid-template-areas: 
-    "a a b"
-    "a a b"
-    "b c c"; 
-    grid-template-rows: 50px 1fr 30px;
-    grid-template-columns: 150px 1fr;
+    grid-gap:10px;
+    grid-template-columns: 1fr 1fr 40px 20%;
+    grid-template-rows: 50px 50px 50px;
     
   }
 
@@ -16,12 +12,7 @@
     border-radius: 20%;  
   }
 
-  .a {
-   margin: 0;
-   padding: 0;
-  
-  }
-  .b {
+  .text-box-red {
     grid-column: col 3 / span 2 ;
     grid-row: row ;
     /* width: 70%; */
@@ -32,7 +23,7 @@
     border: 20px solid #b73919;
     
   }
-  .c {
+  .text-box-cream {
     grid-column: col ;
     grid-row: row 2 ;
     width: 500px;
@@ -40,9 +31,6 @@
     border: 5px solid black;
   }
 
-  .d {
-    grid-column: col ;
-    grid-row: row 2 ;
-  }
+
  
  

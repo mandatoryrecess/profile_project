@@ -1,13 +1,14 @@
 import React from "react";
 import "./Home.css";
 import "./Info.css";
-import Heyhi from '../images/heyhi.png'
+import {ReactComponent as HeyHi} from '../svg/hellohey.svg';
 
 
 function Home() {
+
   return (
     <div >
-          <img src={Heyhi} height={500} />    
+          <HeyHi />
     </div>
   );
 }
