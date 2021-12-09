@@ -1,29 +1,31 @@
 .navbarcontainer {
  font-size: 2vw;
+ padding: 5px;
  
 }
 
 ul {
   list-style-type: none;
-  margin: 10%;
-  padding: 0px;
-  border-radius: 20%;
-  /* background-color: #a6b73a; */
-  border: 20px solid #647201;
+  margin: 0;
+  padding: 20px;
+  border-radius: 30%;
+  background-color: #647201;
+  border: 50px solid #647201;
+;
 }
 
 li a {
-  display: grid;
   color: #e5e2a8;
   border-radius: 30%;
-  padding: 18px;
+  padding: 2%;
   background-color: #a6b73a;
   text-decoration: none;
 }
 
 li {
   text-align: center;
-  /* border-bottom: 10px solid #647201; */
+  display: inline;
+  border-bottom: 10px solid #647201; 
 }
 
 li:last-child {
@@ -35,7 +37,7 @@ li a.active {
 }
 
 li a:hover:not(.active) {
-  background-color: #647201;
+  background-color: #e5e2a8;
   color: #a6b73a;
   border-radius: 30%;
 }

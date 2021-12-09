@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
 import "./Navigation.css";
-import "./Info.css";
 
 function Navigation(props) {
   return (
@@ -9,15 +8,14 @@ function Navigation(props) {
       <nav>
         <div class="container">
           <div>
-            <ul class="navbar-nav ml-auto">
+            <ul>
               <li
                 class={`nav-item  ${
                   props.location.pathname === "/" ? "active" : ""
                 }`}
               >
                 <Link class="nav-link" to="/">
-                 Hey
-              
+               ******Hey*****
                 </Link>
               </li>
               <li
@@ -26,7 +24,7 @@ function Navigation(props) {
                 }`}
               >
                 <Link class="nav-link" to="/about">
-                  About
+                *****About*****
                 </Link>
               </li>
               <li
@@ -35,7 +33,7 @@ function Navigation(props) {
                 }`}
               >
                 <Link class="nav-link" to="/contact">
-                  Contact
+                *****Contact*****
                 </Link>
               </li>
               <li
@@ -44,7 +42,7 @@ function Navigation(props) {
               }`}
             >
               <Link class="nav-link" to="/portfolio">
-                Portfolio
+              *****Portfolio****
               </Link>
             </li>
             </ul>
