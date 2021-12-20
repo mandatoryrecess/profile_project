@@ -4,7 +4,7 @@ import "./Info.css";
 
 function About() {
   return (
-    <div class="wrapper">
+    <div>
       <div>
         <div class="box text-box-red ">
           <h1>About</h1>

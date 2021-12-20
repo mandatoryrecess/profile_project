@@ -4,9 +4,9 @@ import "./Info.css";
 
 function Portfolio() {
   return (
-    <div class="container">
     <div>
-      <div class="box b">
+    <div>
+      <div class="box text-box-red ">
         <h1>Portfolio</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
