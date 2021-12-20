@@ -12,11 +12,24 @@
   src: url(./fonts/bratsy-script-font/BratsyScriptDemoReguler-9YYB0.ttf);
 }
 
+@font-face {
+  font-family: 'roockabye-font';
+  src: url(./fonts/rockabye-font/RockabyeRegular-K7Zqy.otf);
+}
+
+
  body {
-  margin: 2%;
-  font-family: 'bright';
+  margin: 9% 20%;
+  font-family: 'roockabye-font';
 
 } 
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: medium;
+  font-weight: 100;
+  line-height: 200%;
+  font-kerning:auto;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
