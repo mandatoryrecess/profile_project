@@ -6,7 +6,7 @@ import "./Navigation.css";
 function Navigation(props) {
   return (
    
-<div class="nav-container">
+<div class="nav-container floating">
     <nav>
       <input type="checkbox" id="nav-toggle"/>
       <label for="nav-toggle" class="burger-menu">
@@ -24,18 +24,20 @@ function Navigation(props) {
                }`} class="nav-link" to="/about">
             About
           </Link>
-          <Link class={`nav-item  ${
-            props.location.pathname === "/contact" ? "active" : ""
-           }`} class="nav-link" to="/contact">
-           Contact
-          </Link>
+     
           <Link class={`nav-item  ${
              props.location.pathname === "/portfolio" ? "active" : ""
              }`} class="nav-link" to="/portfolio">
             Portfolio
           </Link>
+          <Link class={`nav-item  ${
+            props.location.pathname === "/contact" ? "active" : ""
+           }`} class="nav-link" to="/contact">
+          </Link>
+          <br />
+          <br />
       </div>
-      <a href="#" class="logo">Hey Hi</a>
+      <a href="#" class="logo">RC</a>
     </nav>
 </div>
 

@@ -7,7 +7,7 @@ import {ReactComponent as HeyHi} from '../svg/hellohey.svg';
 function Home() {
 
   return (
-    <div >
+    <div class="floating">
           <HeyHi />
     </div>
   );

@@ -19,8 +19,9 @@
 
 
  body {
-  margin: 9% 20%;
+  margin: 6% 20%;
   font-family: 'roockabye-font';
+  font-kerning: normal;
 
 } 
 p {
@@ -28,7 +29,7 @@ p {
   font-size: medium;
   font-weight: 100;
   line-height: 200%;
-  font-kerning:auto;
+  
 }
 
 code {

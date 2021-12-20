@@ -5,9 +5,9 @@ import "./Info.css";
 function Portfolio() {
   return (
     <div>
-    <div>
-      <div class="box text-box-red ">
-        <h1>Portfolio</h1>
+    <div class="box floating">
+      <div class="text-box-red ">
+        <h1>Print Design</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text
