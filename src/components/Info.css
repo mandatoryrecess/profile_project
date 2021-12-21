@@ -1,12 +1,15 @@
 
-
-
-
   .box {
     border-radius: 35%;
     background-color: #e5e2a8;
     padding: 2%;
     width: 100%;
+  }
+  .box-portfolio {
+    border-radius: 15%;
+    background-color: rgb(55, 49, 49);
+    padding: 40px;
+
   }
 
   .text-box-red {
