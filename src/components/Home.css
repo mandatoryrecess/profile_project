@@ -1,0 +1,19 @@
+.HeyHi {
+  font-family: 'Bratsy';
+  display: grid;
+  justify-items: center;
+  font-size: 23vw;
+  line-height: 11rem;
+  color: wheat;
+  -webkit-text-stroke-width: 7px;
+  -webkit-text-stroke-color: black;
+
+}
+
+
+@media only screen and (max-width: 1225px) {
+  .HeyHi {
+    
+    font-size: 20vw;
+  }
+}
