@@ -5,5 +5,51 @@ img {
 
 h1 {
   color: goldenrod;
-  
+  font-size: 4vw; 
+}
+
+.portfolio-nav-cream {
+  border-radius: 35%;
+  padding: 2%;
+  color: black;
+  background-color: #e5e2a8;
+  border: 20px solid black;  
+}
+
+.portfolio-nav-text-box {
+  border-radius: 15%;
+  background-color: rgb(84, 78, 78);
+  padding: 200px 0px 20px 25px;
+  opacity: 98%;
+}
+
+   
+.floating-slow {
+  animation-name: floating;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+@keyframes floating-slow {
+  0% { transform: translate(0, 0px); }
+  50% { transform: translate(0, 10px); }
+  100% { transform: translate(0, -0px); }
+}
+
+.floating-fast {
+  animation-name: floating;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+@keyframes floating-fast {
+  0% { transform: translate(0, 0px); }
+  50% { transform: translate(0, 12px); }
+  100% { transform: translate(0, -0px); }
 }
