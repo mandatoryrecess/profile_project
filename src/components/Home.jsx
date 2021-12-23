@@ -8,7 +8,7 @@ function Home() {
 
   return (
     <div >
-         <span class="HeyHi">HeyHi</span> 
+         <span class="HeyHi">HeyHi<br />HeyHi<br />HeyHi<br />HeyHi<br />HeyHi</span> 
     </div>
   );
 }

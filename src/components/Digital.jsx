@@ -9,8 +9,7 @@ function Digital() {
     
     <div class="text-box-red ">
       <div >
-      <h1>Digital</h1>
-   
+        <h1>Digital</h1>
       </div>
     </div>
   </div>

@@ -4,23 +4,25 @@ img {
 }
 
 h1 {
-  color: goldenrod;
-  font-size: 4vw; 
+  /* color: #b73919; */
+  
+  font-size: 5.5vw; 
+  font-family: 'Bright';
 }
 
 .portfolio-nav-cream {
   border-radius: 35%;
   padding: 2%;
-  color: black;
-  background-color: #e5e2a8;
-  border: 20px solid black;  
+  background-color: #b24d06;
+  border: 20px solid #b73919;  
 }
 
 .portfolio-nav-text-box {
   border-radius: 15%;
-  background-color: rgb(84, 78, 78);
+  color: #e5e2a8;
+  background-color: #647201;
   padding: 200px 0px 20px 25px;
-  opacity: 98%;
+  opacity: 100%;
 }
 
    
