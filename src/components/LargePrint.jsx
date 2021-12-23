@@ -17,8 +17,7 @@ function LargePrint() {
             <img src={"images/bus2013.jpg"} height="100vw"/>
             <img src={"images/bus2016.jpg"} height="100vw"/>
             <img src={"images/bus2019.jpg"} height="100vw"/>
-            <img src={"images/bus2016_2.jpg"} height="100vw"/>
-            
+            <img src={"images/bus2016_2.jpg"} height="100vw"/>      
             </div>
           </div>
       </div>
