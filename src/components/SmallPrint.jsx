@@ -1,14 +1,18 @@
 import React from "react";
 import "./Portfolio.css";
 import "./Info.css";
+import SvgCircleArrowRight from "./SvgCircleArrowRight";
+import "./Arrow.css";
 
 
 function SmallPrint() {
   return (
+    <div>
     <div class="box floating">
     
     <div class="text-box-red ">
       <div >
+     
       <h1>SmallPrint</h1>
       <a href ="https://issuu.com/circlecraft/docs/program">2019 </a> 
       <a href="https://issuu.com/circlecraft/docs/program_2018_final">2018 </a>
@@ -19,7 +23,11 @@ function SmallPrint() {
       <a href="https://issuu.com/circlecraft/docs/program_online">2013</a>
       </div>
     </div>
+    
   </div>
+  <SvgCircleArrowRight class="arrow"/>
+  </div>
+
   );
 }
 
