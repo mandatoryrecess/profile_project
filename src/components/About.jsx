@@ -9,7 +9,7 @@ function About() {
         <div class=" text-box-red ">
           <h1>Rossanne Clamp</h1>
             <p>
-            Color on the web is free! Thes same cost as white, I checked. 
+            Color on the web is free! The same cost as white, I checked. 
             <br />
             </p>
           <h3>
