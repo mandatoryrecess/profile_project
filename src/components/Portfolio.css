@@ -4,6 +4,8 @@ img {
   height:15vw;
   object-fit:cover;
   border-radius:50%;
+  opacity: 80%;
+  padding: 1vw;
 }
 
 h1 {
